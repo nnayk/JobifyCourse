@@ -75,4 +75,4 @@ const updateUser = async (req,res) =>
     res.send("updated user...");
 }
 
-export {register,login,updateUser};
+export {register,login,updateUser,CustomAPIError};
